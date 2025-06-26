@@ -9,6 +9,7 @@ export default function Counter() {
     let incrCount = () => {
         count = count + 1;
         setCount(count);
+        console.log(code);
         
     }
 
